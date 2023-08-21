@@ -1,4 +1,7 @@
-{
+{   
+    "name": "phpunit/trabajosube",
+    "description": "Trabajo practico AAT",
+    "license": "MIT",
     "autoload":{
         "psr-4": {
             "TrabajoSube\\" : "src"
