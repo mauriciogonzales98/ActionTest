@@ -9,18 +9,18 @@
          processIsolation="false"
          bootstrap="tests/bootstrap.php">
 
-    <coverage processUncoveredFiles="true">
-        <testsuites>
-            <testsuite name="TrabajoSube Type Test Suite">
-                <directory>./tests</directory>
-            </testsuite>
-        </testsuites>
-    </coverage>
+    
+    <testsuites>
+        <testsuite name="TrabajoSube Type Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
 
-    <!-- <coverage>
-        <whitelist>
-            <directory>src</directory>
-        </whitelist>
-    </coverage> -->
+
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory>./src</directory>
+        </include>
+    </coverage>
 
 </phpunit>
