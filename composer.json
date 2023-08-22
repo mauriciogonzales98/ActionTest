@@ -13,6 +13,6 @@
     },
     
     "scripts": {
-        "test" : "XDEBUG_MODE=coverage ./vendor/bin/phpunit"
+        "test" : "./vendor/bin/phpunit --coverage-text"
     }
 }
