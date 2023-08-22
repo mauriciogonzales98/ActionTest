@@ -53,7 +53,7 @@ jobs:
         # php_extensions: "xdebug"
         # coverage_clover: "coverage/clover.xml"
         bootstrap: vendor/autoload.php
-        configuration: test/phpunit.xml
+        configuration: ./phpunit.xml
         args: --coverage-text
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
