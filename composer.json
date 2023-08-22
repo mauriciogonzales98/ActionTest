@@ -13,6 +13,6 @@
     },
     
     "scripts": {
-        "test" : "./vendor/bin/phpunit --coverage_text"
+        "test" : "./vendor/bin/phpunit --coverage-text"
     }
 }
