@@ -51,7 +51,7 @@ jobs:
       uses: romeovs/lcov-reporter-action@v0.2.11
         with:
           lcov-file: ./coverage/lcov.info
-          
+
     - name: PHPUnit tests
       uses: php-actions/phpunit@v3
       with:
@@ -59,7 +59,7 @@ jobs:
         # coverage_clover: "coverage/clover.xml"
         bootstrap: vendor/autoload.php
         configuration: ./phpunit.xml
-        args: --coverage-text
+        args: --coverage_text
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
