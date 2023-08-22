@@ -47,10 +47,6 @@ jobs:
     #     XDEBUG_MODE: coverage
             
 
-    - name: Code Coverage Report
-      uses: romeovs/lcov-reporter-action@v0.2.11
-        with:
-          lcov-file: ./coverage/lcov.info
 
     - name: PHPUnit tests
       uses: php-actions/phpunit@v3
