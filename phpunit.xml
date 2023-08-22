@@ -10,12 +10,12 @@
          bootstrap="tests/bootstrap.php">
 
     <coverage processUncoveredFiles="true">
-    <testsuites>
-        <testsuite name="TrabajoSube Type Test Suite">
-            <directory>./tests</directory>
-        </testsuite>
-    </testsuites>
-
+        <testsuites>
+            <testsuite name="TrabajoSube Type Test Suite">
+                <directory>./tests</directory>
+            </testsuite>
+        </testsuites>
+    </coverage>
 
     <!-- <coverage>
         <whitelist>
