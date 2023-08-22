@@ -1,1 +1,1 @@
-{"version":1,"defects":{"TrabajoSube\\ColectivoTest::testGetLinea":7,"TrabajoSube\\ColectivoTest::testRandom":7},"times":{"TrabajoSube\\ColectivoTest::testGetLinea":0.003,"TrabajoSube\\ColectivoTest::testRandom":0.007}}
+{"version":1,"defects":{"TrabajoSube\\ColectivoTest::testGetLinea":7,"TrabajoSube\\ColectivoTest::testRandom":7},"times":{"TrabajoSube\\ColectivoTest::testGetLinea":0.015,"TrabajoSube\\ColectivoTest::testRandom":0.007}}
