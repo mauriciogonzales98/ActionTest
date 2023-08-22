@@ -11,4 +11,8 @@ class Colectivo{
     public function getLinea(){
         return $this->linea;
     }
+
+    public function wea(){
+        return 'wea';
+    }
 }
