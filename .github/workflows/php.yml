@@ -34,6 +34,12 @@ jobs:
 
     - name: Ejecutar tests
       run: composer run-script test
+      
+    - name: PHPUnit tests
+      uses: php-actions/phpunit@v3
+      with:
+        php_extensions: "xdebug"
+        coverage_clover: "coverage/clover.xml"
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
