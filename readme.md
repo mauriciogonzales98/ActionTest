@@ -40,3 +40,8 @@ Si se agregan nuevas clases al código tal vez sea necesario correr:
 ```
 composer dump-autoload
 ```
+
+## Descuento de saldos.
+Cada vez que una tarjeta paga un boleto, descuenta el valor del monto gastado.
+Si la tarjeta se queda sin saldo, la operación $colectivo->pagarCon($tarjeta) devuelve FALSE,
+Escribir un test que valide dos casos, pagar con saldo y pagar sin saldo.
